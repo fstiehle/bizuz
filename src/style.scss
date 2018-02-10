@@ -1,7 +1,15 @@
 @import "./sass/reset.scss";
 @import "./sass/typography.scss";
+@import "./sass/navigation.scss";
+@import "./sass/images.scss";
+@import "./sass/home.scss";
+@import "./sass/shop.scss";
+@import "./sass/detail.scss";
+@import "./sass/grid.scss";
+@import "./sass/lookbook.scss";
+@import "./sass/info.scss";
 
 body {
   background-color: white;
-  font-family: 'Sporting Grotesque_Regular';
+  min-width: 350px;
 }

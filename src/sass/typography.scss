@@ -17,3 +17,37 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'BoogieSchool-Sans';
+  src:    url('static/fonts/BoogieSchool-Sans.woff') format('woff'),
+          url('static/fonts/BoogieSchool-Sans.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5%
+}
+
+body {
+  font-family: 'Sporting Grotesque_Regular';
+  line-height: 1.8;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.3;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  font-family: 'Sporting Grotesque_Bold';
+}
+h2 {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  font-family: 'Sporting Grotesque_Bold';
+}
+h3 {
+  line-height: 1.3;
+}
