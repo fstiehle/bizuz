@@ -1,0 +1,95 @@
+.lookbook {
+  box-sizing: border-box;
+  overflow: hidden;
+
+  h1 {
+    font-family: "BoogieSchool-Sans";
+    line-height: 1;
+    font-size: 8rem;
+    position: absolute;
+    left: 20%;
+    z-index: 1;
+
+    @media (max-width: 500px) { 
+      font-size: 6rem;
+    }
+  }
+
+  img,
+  video { 
+    transition: all 0.40s ease-in-out;
+    &:hover {
+      transform: rotate(-15deg);
+    }
+    @media (max-width: 700px) { 
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+}
+
+.round-the-moon,
+.after-the-moment,
+.holy-chic,
+.love-crimes,
+.trash-hologram,
+.beauty-above-all,
+.lolo-ferrari,
+.good-vibes,
+.be-classy {
+  overflow: auto;
+  padding: 13rem 2rem;
+  background-color: #1d1a36;
+  color: #f42b04;
+  overflow: hidden;
+}
+
+.beauty-above-all,
+.lolo-ferrari,
+.good-vibes,
+.be-classy {
+  background-color: #1a3027;
+}
+
+.holy-chic,
+.beauty-above-all {
+  color: #f7bfbe;
+
+  h1 {
+    left: auto;
+    right: 30%;
+  }
+}
+
+.lolo-ferrari {
+  color: #144475;
+}
+
+.love-crimes {
+  color: #ffa01f;
+}
+
+.good-vibes h1 {
+  left: 37%;
+}
+
+.be-classy h1 {
+  color: #900f76;
+  text-align: center;
+  left: auto;
+  right: 30%;
+}
+
+.trash-hologram h1 {
+  left: auto;
+  right: 30%;
+}
+
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
