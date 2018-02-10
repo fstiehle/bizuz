@@ -47,8 +47,15 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/,
                 loader: "file-loader",
                 options:  { 
-                    name: "/static/fonts/[name].[ext]",
-                    outputPath: "dist/"
+                    name: "static/fonts/[name].[ext]"
+                },
+            },
+            {
+                test: /\.(png|jpg|gif|svg|mp4)$/,
+                exclude: /(node_modules|bower_components)/,
+                loader: "file-loader",
+                options:  { 
+                    name: "static/images/[hash].[ext]"
                 },
             }
         ]
