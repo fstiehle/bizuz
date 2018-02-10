@@ -18,7 +18,7 @@ export default class AfterTheMoment extends React.Component {
       </div>
       
       <div className="clearfix">
-        <video style={{marginLeft: "25%", marginTop: "7%"}} width="304" height="450" loop autoPlay>
+        <video style={{marginLeft: "25%", marginTop: "7%"}} width="304" height="450" loop autoPlay muted playsinline>
             <source src={require('../../static/images/After_the_moment.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
         </video> 
