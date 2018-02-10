@@ -17,7 +17,7 @@ export default class BeClassy extends React.Component {
         width="400px" alt="round the moon" src={require('../../static/images/lookbook/02_Fiona_hair_800px.jpg')} />
       </div>
 
-      <video style={{marginLeft: "25%", marginTop: "7%"}} width="304" height="450" loop autoPlay>
+      <video style={{marginLeft: "25%", marginTop: "7%"}} width="304" height="450" loop autoPlay muted playsinline>
               <source src={require('../../static/images/Be_classy.mp4')} type="video/mp4" />
               Your browser does not support the video tag.
           </video> 

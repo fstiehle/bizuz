@@ -22,7 +22,7 @@ export default class RoundTheMoon extends React.Component {
         width="912px" alt="round the moon" src={require('../../static/images/lookbook/03_Wini_Janine_faces_1824px.jpg')} />
       </div>  
       
-      <video style={{marginLeft: "10%", marginTop: "7%"}} width="304" height="450" loop autoPlay>
+      <video style={{marginLeft: "10%", marginTop: "7%"}} width="304" height="450" loop autoPlay muted playsinline>
           <source src={require('../../static/images/round_the_moon_video.mp4')} type="video/mp4" />
           Your browser does not support the video tag.
       </video>  
