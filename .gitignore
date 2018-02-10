@@ -1,5 +1,7 @@
 .DS_Store
 /dist
+/static
+src/static
 
 # Logs
 logs
