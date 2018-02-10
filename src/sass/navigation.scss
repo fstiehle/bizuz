@@ -1,0 +1,93 @@
+.navigation {
+  font-family: 'Sporting Grotesque_Bold';
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  font-size: 2rem;
+  padding: 2rem;
+  text-transform: uppercase;
+  box-sizing: border-box;
+
+  a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.40s ease-in-out;
+  }
+
+  .active,
+  a:hover {
+    transform: rotate(12deg);
+  }
+
+  .navlogo {
+    height: 30px;
+    width: auto;
+  }
+
+  .lookbooklogo {
+    height: 60px;
+    width: auto;
+  }
+
+  .hidden img {
+    opacity: 0;
+  }
+
+  @media (min-width: 700px) { 
+    .navigation-destop {
+      display: flex;
+    }
+    .navigation-mobile {
+      display: none;
+    }
+  }
+}
+
+.navigation-destop {
+  display: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navigation-mobile {  
+  span {
+    cursor: pointer;
+  }
+  .active div {
+    background-color: black;
+    color: white;
+  }
+
+  .navlogo,
+  .lookbooklogo {
+    float: right;
+  }
+}
+
+.lookbooklogo {
+  display: none;
+}
+
+.navigation-lookbook {
+  a {
+    color: #f42b04;
+  }
+  .navigation-mobile { 
+    color: #f42b04;
+    background-color: #1d1a36;
+  }
+
+  .lookbooklogo {
+    display: block;
+  }
+
+  .navlogo {
+    display: none;
+  }
+}
+
+.burgermenu {
+  height: 30px;
+}
+
+
