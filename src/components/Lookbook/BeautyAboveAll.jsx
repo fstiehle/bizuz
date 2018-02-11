@@ -18,7 +18,7 @@ export default class BeautyAboveAll extends React.Component {
       </div>
 
       <div className="clearfix">      
-        <video style={{marginLeft: "25%"}} width="304" height="450" loop autoPlay muted playsinline>
+        <video style={{marginLeft: "25%"}} width="304" height="450" loop autoPlay muted playsInline>
               <source src={require('../../static/images/Beaty_above_all_02.mp4')} type="video/mp4" />
               Your browser does not support the video tag.
           </video> 

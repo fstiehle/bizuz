@@ -17,7 +17,7 @@ export default class LoveCrimes extends React.Component {
         width="638px" alt="round the moon" src={require('../../static/images/lookbook/01_Bombers_01_1276px.jpg')} />
       </div>
 
-      <video style={{marginLeft: "25%"}} width="304" height="450" loop autoPlay muted playsinline>
+      <video style={{marginLeft: "25%"}} width="304" height="450" loop autoPlay muted playsInline>
             <source src={require('../../static/images/Trash_hologram.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
         </video>
