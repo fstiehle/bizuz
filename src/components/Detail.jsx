@@ -43,7 +43,7 @@ export default class Detail extends React.Component {
         </div>
       </div>
       <div className="suggestions">
-        <Grid limit="5"/>
+        <Grid limit="6"/>
       </div>
     </div>
     );

@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Route } from 'react-router-dom'
+import Navigation from "../Navigation.jsx";
 
 export default class BeClassy extends React.Component {
 
@@ -22,6 +24,9 @@ export default class BeClassy extends React.Component {
               Your browser does not support the video tag.
           </video> 
       
+      <div style={{marginTop: "5%"}}>
+        <Route path="/" component={Navigation} />
+      </div>
     </div>    
     );
   } 

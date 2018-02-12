@@ -21,18 +21,18 @@ export default class Home extends React.Component {
           Czech Republic<br />
           Just say hello<br />
           hello@bizuz.cz<br />
-          Follow us on instagram: @bizuzvintage<br />
+          Follow us on instagram:<br /> @bizuzvintage<br />
 
           <h2>Impressum</h2>
           Coding: Fabian Stiehle<br />
           Styling: Daria Kuzmina<br />
-          Typefaces: Boogie School Sans<br />
-          by Or Type
+          Typefaces: Boogie School<br /> Sans
+          by Or Type<br />
           Sporting Grotesque
-          Regular by Velvetyne<br />
+          Regular<br /> by Velvetyne<br />
           Concept &
-          design: Masha Kornienko<br />
-          Copyright © Bizuz vintage 2018
+          design:<br /> Masha Kornienko
+          Copyright <br />© Bizuz vintage 2018
       </div>
     );
   }
